@@ -9,6 +9,10 @@ The program captures video from the webcam and compares each detected face to a 
 
 Use case: Ideal for personal authentication systems, attendance tracking, or simple facial verification tasks.
 
+### ⚠️Limitation:
+- This system can be fooled by static images. If someone obtains a clear photo of the authorized face and presents it to the webcam, the algorithm may incorrectly verify it as a match.
+- This makes it insecure for high-stakes authentication where spoofing attacks are a concern. For robust security, consider using liveness detection or multi-factor authentication.
+
 ---
 
 ## Languages and Utilities Used
